@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<script>
+    let ngoiSao = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let chomSao = ['Ursa Minor', 'Tarurus ', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+
+    function search(x) {
+        if (ngoiSao.indexOf(x) != -1) alert(chomSao[ngoiSao.indexOf(x)]);
+        else alert('khong co ngoi sao ten' + x);
+    }
+    search(prompt('Nhap ten ngoi sao: '));
+
+</script>
+</body>
+</html>
